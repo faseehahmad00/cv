@@ -1,1 +1,119 @@
- 
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: brown;
+  min-height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  flex: 3;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: left;
+  padding: 15px;
+}
+
+.detailscontainer {
+  background-color: #ffffff;
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+}
+.education {
+  padding: 0px 15px;
+  flex: 2;
+  background-color: #C9CAC5;
+}
+.details {
+  padding: 0px 15px;
+  flex: 8;
+  background-color: #F2F2F2;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.img {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 100px;
+  margin-top: 30px;
+  align-self: center;
+}
+.profile h1 {
+  align-self: center;
+  margin-bottom: 0px;
+}
+.profile a{
+    color:white;
+    text-decoration: none;
+}
+.profile a:hover{
+    color:green;
+}
+.profile p {
+  align-self: center;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.profile li{
+    margin-top: 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.profile h3 , .detailscontainer h3{
+  font-family: sans-serif;
+  text-decoration: underline solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+}
+
+.detailscontainer p{
+    font-size: 12px;
+}
+
+.detailscontainer h5{
+    margin-bottom: 0px;
+}
+
+
+.detailscontainer progress{
+     max-width: 70px;
+    /* background-color: orange; */
+    appearance: none;
+    -webkit-appearance: none; 
+    max-height: 6px;
+    /*border-radius: 100px;
+    color: orange; */ 
+}
+.detailscontainer li{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-color: black;
+      border-radius: 2px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }  
