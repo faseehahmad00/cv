@@ -43,6 +43,7 @@ body {
   flex-direction: column;
   color: white;
   text-align: left;
+  padding: 15px 0px;
 }
 .about{
   margin: 0px 15px;
@@ -56,13 +57,13 @@ body {
 }
 
 .education {
-  padding: 15px 15px;
+  padding: 8px 15px;
   flex: 2;
   background-color: #C9CAC5;
 }
 
 .details {
-  padding: 15px 15px;
+  padding: 8px 15px;
   flex: 8;
   background-color: #F2F2F2;
 }
@@ -156,6 +157,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  margin-bottom: 0px;
 }
 
 .detailscontainer li {
